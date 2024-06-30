@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Form</title>
+    <style>
+        body {
+          
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            margin: 100px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: blue;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center><h2>Signup Form</h2></center>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+            <center><input type="submit" value="Submit"></center>
+        </form>
+    </div>
+</body>
+</html>
